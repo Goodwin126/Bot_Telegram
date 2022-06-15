@@ -13,22 +13,23 @@ class Test(StatesGroup):
     Q9 = State()
     Q10 = State()
 
-class Admin(StatesGroup):
+class FMSAdmin(StatesGroup):
     photo = State()
     name = State()
     description = State()
     price = State()
 
 
-class Kbgu(StatesGroup):
+class Score_admin(StatesGroup):
+    check = State()
     name = State()
     protein = State()
     fat = State()
     carbohydrate = State()
     calories = State()
-    check = State()
 
-class C_C(StatesGroup):
+
+class Score(StatesGroup):
     V1 = State()
     V2 = State()
     V3 = State()

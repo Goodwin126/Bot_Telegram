@@ -1,6 +1,4 @@
 from .test import Test
-from .test import Admin
-from .test import Kbgu
-from .test import C_C
-
-
+from .test import FMSAdmin
+from .test import Score_admin
+from .test import Score
